@@ -1,0 +1,62 @@
+.btn-default {
+  color: rgb(58,132,244);
+  box-shadow: 0px 0px 20px var(--bs-blue);
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: #000;
+  border: 1px solid rgba(49,113,237,0.51);
+  /*outline: none;*/
+  background-color: rgba(49,113,237,0.51);
+}
+
+.intro-body {
+  padding-top: 0;
+  width: 1566;
+  height: 629px;
+  min-height: 29px;
+  margin: 19px;
+  margin-top: 16px;
+  margin-right: 19px;
+  margin-bottom: 35px;
+  padding-right: 0;
+  background: url("../../assets/img/intro-bg.jpg") center / cover, #131f32;
+}
+
+body {
+  margin: auto;
+  align-content: initial;
+  display: table-cell;
+}
+
+#mainNav {
+  margin: auto;
+  align-items: flex-start;
+  width: initial;
+  scroll-behavior: smooth;
+  cursor: crosshair;
+  visibility: inherit;
+  z-index: initial;
+}
+
+#navimg {
+  width: 50px;
+}
+
+#logo1 {
+  width: 75px;
+}
+
+#logo1 {
+  width: 75px;
+  padding: 25px;
+}
+
+#logo2 {
+  width: 50px;
+}
+
+#logo3 {
+  width: 75px;
+}
+
